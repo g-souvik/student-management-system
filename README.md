@@ -48,8 +48,8 @@ The application follows a **layered architecture** for better code organization 
 ## ⚙️ Run the Application
 
 1. Clone the repository.
-2. Configure the database in `application.properties`.
+2. Configure the MySQL database in `application.properties`.
 3. Run the Spring Boot application.
 4. Open **Swagger UI** to test the APIs.
 
-**🔗 Swagger UI:** `http://localhost:8080/swagger-ui/index.html`
+**🌐 Swagger UI:** `http://localhost:8080/swagger-ui/index.html`
