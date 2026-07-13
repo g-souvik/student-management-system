@@ -7,9 +7,9 @@ A role-based backend **Student Management System** developed using **Spring Boot
 ## 🚀 Features
 
 ### 👨‍💼 Admin
-- ➕ Add, update, view, and delete students.
-- 📚 Manage subjects for different semesters.
-- 📝 Add, update, and view student marks.
+- ➕ Create, update, view and delete student records.
+- 📚 Manage semester-wise subjects.
+- 📝 Add, update and view student marks.
 - 👥 View students by department and semester.
 
 ### 👨‍🎓 Student
@@ -18,17 +18,17 @@ A role-based backend **Student Management System** developed using **Spring Boot
 - 📊 View semester-wise results.
 
 ### 🔐 Security
-- 🔑 Role-based authentication and authorization using **Spring Security**.
-- 🔒 Password encryption using **BCrypt**.
+- 🔑 Authentication and role-based authorization using **Spring Security**.
+- 🔒 Secure password encryption with **BCrypt**.
 - 👨‍💻 Automatic creation of a default Admin account using **CommandLineRunner**.
 
 ---
 
 ## 🛠️ Technologies Used
 - **Language:** Java
-- **Backend Framework:** Spring Boot
-- **Security:** Spring Security
-- **ORM:** Spring Data JPA, Hibernate
+- **Framework:** Spring Boot
+- **Security:** Spring Security, BCrypt
+- **Persistence:** Spring Data JPA, Hibernate
 - **Database:** MySQL
 - **Build Tool:** Maven
 - **API Testing:** Swagger UI
@@ -36,7 +36,7 @@ A role-based backend **Student Management System** developed using **Spring Boot
 ---
 
 ## 🏗️ Project Architecture
-The application follows a layered architecture to keep the code clean and maintainable.
+The application follows a **layered architecture** for better code organization and maintainability.
 
 - 🎮 **Controller** - Handles HTTP requests and responses.
 - ⚙️ **Service** - Contains business logic.
@@ -49,7 +49,7 @@ The application follows a layered architecture to keep the code clean and mainta
 
 1. Clone the repository.
 2. Configure the database in `application.properties`.
-3. Run the application.
-4. Test the APIs using **Swagger UI**.
+3. Run the Spring Boot application.
+4. Open **Swagger UI** to test the APIs.
 
-🔗 Access in browser → http://localhost:8080/swagger-ui/index.html
+**🔗 Swagger UI:** `http://localhost:8080/swagger-ui/index.html`
